@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.top p img {
+    width: 100px;
+    height: 46px;
+    vertical-align: bottom;
+    position: relative;
+    top:10px;
+    left: 20%;
+}
+.top{
+    height:80px;
+    background: black;
+    overflow: hidden;
+    position: relative;
+    
+}
+.nav {
+    position: absolute;
+    right: 10%;
+    top: 0;
+    height: 80px;
+    line-height: 80px;
+   
+}
+.nav li {
+    display: inline-block;
+}
+.nav li a {
+    color:gray;
+    text-decoration: none;
+    font-size: 10px;
+}
+.nav li a:hover {
+    color: lightblue;
+    padding-bottom: 20px; 
+}
+.line{
+    position: relative;
+    height: 8px;
+    background-color:rgb(74, 180, 241) ;
+}
+.about{
+    position: relative;
+    background-color: rgb(43, 144, 226);
+    height: 80px;
+    
+
+}
+.about h2{
+    position: relative;
+    left: 20%;
+    top: 26px;
+    margin:0 auto;
+    color:white;
+}
+.first{
+    position: relative;
+    left: 20%;
+    top: 50px;
+    width:70%;
+}
+.button{
+    background-color: rgb(43, 144, 226);
+    height: 50px;
+    width: 100px;
+    color: white;
+}
+.button:hover{
+    background-color: red;
+}
+.first div p{
+    color: gray;
+}
+.section{
+    position: relative;
+    top:30px;
+    height: 300px;
+    width:100%;
+}
+.all{
+    position: relative;
+    left: 20%;
+    top: 50px;
+    width:70%;
+    
+}
+.second{
+    float: left;
+    width: 48%;
+}
+.third{
+    float: right;
+    width:48%;
+    
+}
+.third p{
+    color: gray;
+}
+.part2{
+    clear:both;
+    position: relative;
+    left: 20%;
+    top: 200px;
+    width:70%;
+    height:300px;
+    border-bottom: solid lightgray;
+    border-top:  solid lightgray;
+}
+.part2 div{
+    display: inline;
+}
+.div1{
+    float: left;
+    width: 31%;
+    height: 150px;
+}
+.div2{
+    float: left;
+    width: 31%;
+    height: 150px;
+}
+.div3{
+    float: left;
+    width: 31%;
+    height: 150px;
+}
+.div1 p{
+    color: gray;
+}
+.button2{
+    background-color: rgb(43, 144, 226);
+    height: 50px;
+    width: 90%;
+    color: white;
+}
+.button2:hover{
+    background-color: red;
+}
+.progress1{
+    color: red;
+    width: 100%;
+}
+.progress2{
+    width: 100%;
+}
+.progress3{
+    width: 100%;
+}
+.progress4{
+    width: 100%;
+}
+.part3{
+    clear:both;
+    position: relative;
+    left: 20%;
+    top: 300px;
+    width:70%;
+    height:300px;
+}
+.img1{
+    float: left;
+    width: 25%;
+}
+.img2{
+    float: left;
+    width: 25%;
+}
+.img3{
+    float: left;
+    width: 25%;
+}
+.img4{
+    float: left;
+    width: 25%;
+}
+.img1 div p{
+    text-align: center;
+    color: gray;
+    font-size: 22px;
+}
+.img2 div p{
+    text-align: center;
+    color: gray;
+    font-size: 22px;
+}
+.img3 div p{
+    text-align: center;
+    color: gray;
+    font-size: 22px;
+}
+.img4 div p{
+    text-align: center;
+    color: gray;
+    font-size: 22px;
+}
+.img1 div{
+    background: rgb(236, 235, 235);
+}
+.img2 div{
+    background: rgb(236, 235, 235);
+}
+.img3 div{
+    background: rgb(236, 235, 235);
+}
+.img4 div{
+    background: rgb(236, 235, 235);
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+.img3 img{
+    width: 100%;
+    height: 100%;
+}
+.img4 img{
+    width: 100%;
+    height: 100%;
+}
+.part4{
+    clear:both;
+    position: relative;
+    left: 20%;
+    top: 330px;
+    width:70%;
+    height:300px;
+    background-color: rgb(34, 33, 33)
+}
+.part4 h3{
+    color: white;
+}
+.part4 p{
+    color: gray;
+    font-size: 12px;
+}
+.news1{
+    float: left;
+    width: 25%;
+    position: relative;
+    top:50px;
+    left:40px;
+}
+.news2{
+    float: left;
+    width: 25%;
+    position: relative;
+    top:50px;
+    left:40px;
+}
+.news3{
+    float: left;
+    width: 25%;
+    position: relative;
+    top:50px;
+    right:40px;
+}
+.news4{
+    float: left;
+    width: 25%;
+    position: relative;
+    top:50px;
+    right:40px;
+}
+.bottom{
+    clear:both;
+    position: relative;
+    left: 20%;
+    top: 330px;
+    width:70%;
+    height:80px;
+    background-color: black;
+}
+.bottom p{
+    color: #fff;
+    position: absolute;
+    top:30%;
+    font-size: 14px;
+    left:40px;
+}
